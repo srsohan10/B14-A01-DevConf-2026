@@ -108,7 +108,7 @@ body{
 .speakers{
     background-color: white;
     width: 100%;
-    margin: 50px auto;
+    padding: 50px auto;
 }
 
 .speakers h1{
@@ -168,4 +168,109 @@ body{
 .card-content p{
     color: #666;
     font-size: 14px;
+}
+
+/* Pricing section */
+.pricing{
+ background-color: white;
+    padding: 60px 20px;
+}
+
+.pricing h1{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.subtitle{
+    text-align: center;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+.pricing-container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.price-card{
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+.plan{
+    font-size: 12px;
+    font-weight: 700;
+    color: #777;
+}
+
+.price-card h2{
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+.person{
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.price-card ul{
+    list-style: none;
+    margin: 20px 0;
+}
+
+.price-card ul li{
+    margin-bottom: 12px;
+    color: #555;
+}
+
+.price-card ul li::before{
+    content: "• ";
+    color: #2563eb;
+    font-weight: bold;
+}
+
+.price-card button{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #2563eb;
+    background: white;
+    color: #2563eb;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.pro{
+    background: linear-gradient(160deg, #0f172a, #1e3a8a);
+    border: none;
+    color: white;
+}
+
+.pro .plan{
+    color: #93c5fd
+}
+
+.pro h2{
+    color: white;
+}
+
+.pro .person,.pro .plan,.pro ul li{
+    color: #d1d5db;
+}
+
+.pro button{
+    background: #2563eb;
+    color: white;
+    border: none;
+}
+
+hr{
+    margin: 20px;
 }
