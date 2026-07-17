@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: #000;
+}
+
+.navbar{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #555;
+}
+.btn{
+    background-color: #2f5cff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
