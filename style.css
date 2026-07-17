@@ -90,6 +90,7 @@ body{
 }
 
 .hero-btn{
+    margin-top: 100px;
     background: #2f5cff;
     color: white;
     border: none;
