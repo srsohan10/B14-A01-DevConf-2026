@@ -36,3 +36,69 @@ body{
     cursor: pointer;
 }
 
+/* Hero section css */
+/* .hero {
+    position: relative;
+    height: 100vh;
+}
+
+.hero img  {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+} */
+
+.hero{
+    height: 90vh;
+
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+    url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-repeat: no-repeat;
+}
+
+.hero-content{
+    max-width: 800px;
+    padding: 20px;
+}
+
+.hero-content h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.hero-content p{
+    font-size: 22px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.hero-btn{
+    background: #2f5cff;
+    color: white;
+    border: none;
+    padding: 18px 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.hero-btn:hover,.btn:hover{
+    opacity: 0.9;
+}
